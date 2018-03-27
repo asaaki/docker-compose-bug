@@ -1,5 +1,11 @@
 # docker-compose bug
 
+## Fixed with docker-compose 1.20.1!
+
+See: <https://github.com/docker/compose/releases/tag/1.20.1>
+
+---
+
 `docker-compose build` (and therefore `up --build`) fails if the project to be build has a symlinked folder in it. Somehow the resolution of it does not work properly anymore.
 
 Tool: <https://github.com/docker/compose>

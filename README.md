@@ -4,6 +4,9 @@
 
 See: <https://github.com/docker/compose/releases/tag/1.20.1>
 
+- Reported in Docker Python SDK: <https://github.com/docker/docker-py/issues/1953>
+- Fix: <https://github.com/docker/docker-py/pull/1972>
+
 ---
 
 `docker-compose build` (and therefore `up --build`) fails if the project to be build has a symlinked folder in it. Somehow the resolution of it does not work properly anymore.
